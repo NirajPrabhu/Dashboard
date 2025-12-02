@@ -1,0 +1,106 @@
+{
+  "programmes": [
+    { "id": "A", "name": "A321XLR", "deadline": "2025-05-20" },
+    { "id": "B", "name": "A350 Autopilot Upgrade", "deadline": "2025-06-10" },
+    { "id": "C", "name": "A330neo Loads Update", "deadline": "2025-04-28" },
+    { "id": "D", "name": "A320neo Software Patch", "deadline": "2025-07-15" }
+  ],
+
+  "engineers": [
+    {
+      "id": 1,
+      "name": "Lead Flight-Control SME",
+      "domain": "Flight Controls",
+      "expertise": 9,
+      "workload": { "A": 85, "B": 70, "C": 45 },
+      "programmes": ["A", "B", "C"]
+    },
+    {
+      "id": 2,
+      "name": "Senior Structures Engineer",
+      "domain": "Structures",
+      "expertise": 7,
+      "workload": { "A": 50, "C": 20 },
+      "programmes": ["A", "C"]
+    },
+    {
+      "id": 3,
+      "name": "Avionics SME",
+      "domain": "Avionics",
+      "expertise": 8,
+      "workload": { "B": 65, "C": 80 },
+      "programmes": ["B", "C"]
+    },
+    {
+      "id": 4,
+      "name": "Stress Engineer",
+      "domain": "Stress/Loads",
+      "expertise": 6,
+      "workload": { "A": 40, "D": 20 },
+      "programmes": ["A", "D"]
+    },
+    {
+      "id": 5,
+      "name": "Systems Integration Engineer",
+      "domain": "Systems",
+      "expertise": 7,
+      "workload": { "A": 60 },
+      "programmes": ["A"]
+    },
+    {
+      "id": 6,
+      "name": "Junior Flight Controls Engineer",
+      "domain": "Flight Controls",
+      "expertise": 4,
+      "workload": { "B": 15 },
+      "programmes": ["B"]
+    },
+    {
+      "id": 7,
+      "name": "Stress Analyst",
+      "domain": "Stress/Loads",
+      "expertise": 5,
+      "workload": { "C": 30, "D": 25 },
+      "programmes": ["C", "D"]
+    },
+    {
+      "id": 8,
+      "name": "Avionics Junior Engineer",
+      "domain": "Avionics",
+      "expertise": 3,
+      "workload": { "D": 10 },
+      "programmes": ["D"]
+    }
+  ],
+
+  "vendors": [
+    {
+      "id": "V1",
+      "name": "Vendor X",
+      "quality": 6,
+      "capacity": 75,
+      "programmes": ["A", "C"]
+    },
+    {
+      "id": "V2",
+      "name": "Vendor Y",
+      "quality": 8,
+      "capacity": 40,
+      "programmes": ["B"]
+    },
+    {
+      "id": "V3",
+      "name": "Vendor Z",
+      "quality": 5,
+      "capacity": 60,
+      "programmes": ["C", "D"]
+    },
+    {
+      "id": "V4",
+      "name": "Vendor Q",
+      "quality": 9,
+      "capacity": 30,
+      "programmes": ["A", "B", "D"]
+    }
+  ]
+}
